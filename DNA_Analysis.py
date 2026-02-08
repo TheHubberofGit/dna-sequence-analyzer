@@ -1,5 +1,5 @@
 def Read():
-    with open("DNA_String.txt", "r") as file:
+    with open("sample_dna.txt", "r") as file:
         DNA=file.read()
     return DNA
 DNA_String=Read()
@@ -37,5 +37,5 @@ GC_Percentage=GCPercentage(G_Count, C_Count, DNA_Length)
 
 print(f"The length of the DNA string is: {DNA_Length}\nThe A count is: {A_Count}"
       f"\nThe C count is: {C_Count}\nThe T count is: {T_Count}\nThe G count is: {G_Count}"
-      f"\nThe GC percentage is: {GC_Percentage}%\nThe count of unknowns is: {Unknown_Count}")
+      f"\nThe GC percentage is: {GC_Percentage:.2f}%\nThe count of unknowns is: {Unknown_Count}")
         
