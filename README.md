@@ -10,11 +10,11 @@ the Thymine count, and the Guanine count, along with the GC percentage and count
 3. run py DNA_Analysis.py.
 
 Sample Output:
-ACTGACTGACTGACTGACTN
-The length of the DNA string is: 20
-The A count is: 5
-The C count is: 5
-The T count is: 5
-The G count is: 4
-The GC percentage is: 45.0%
-The count of unknowns is: 1
+- ACTGACTGACTGACTGACTN
+- The length of the DNA string is: 20
+- The A count is: 5
+- The C count is: 5
+- The T count is: 5
+- The G count is: 4
+- The GC percentage is: 45.0%
+- The count of unknowns is: 1
