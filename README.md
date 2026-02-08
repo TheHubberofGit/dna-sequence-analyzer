@@ -2,7 +2,7 @@
 
 The code takes in an input of a DNA Sequence, and removes all whitespaces, tabs, and newlines.
 From there, the code outputs the sequence itself, the string length, the Adenine count, the Cytosine count,
-the Thymine count, and the Guanine count, along with the GC percentage and count for unknown proteins.
+the Thymine count, and the Guanine count, along with the GC percentage and count for unknown characters.
 
 ## How to use it:
 1. Input your DNA sequence into the sample_dna.txt file (whitespaces, tabs, and newlines are okay).
